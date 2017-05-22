@@ -1,0 +1,68 @@
+@charset "utf-8";
+			/*reset*/
+			body,button,input,select,textarea{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei";}
+			body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0; padding:0;-webkit-text-size-adjust:100%;}
+			table{border-collapse:collapse;border-spacing:0;}
+			em,i{font-style:normal;}
+			li{list-style:none;}
+			img{border:0;}
+			input,img{vertical-align:middle;}
+			article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+			a{text-decoration:none;}
+			.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+			html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;background-color:#f3f5f7 !important;font-size: 16px !important;overflow: hidden;}
+			a,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none; -webkit-font-smoothing:antialiased}
+			
+			
+			header{
+				width:100%;height:2.15rem;position:relative;top:0;left:0;font-size:1rem;
+				color:#fff;text-align: center;line-height: 2.15rem;background:#e4366b;border-bottom: 1px solid #282828;
+				}
+			header .back{position: absolute;left:0.5rem;font-size:0.85rem;width:1.3rem;color:#670d27;}
+			header .account{
+				display: block;width:2.7rem;height:1.3rem;position: absolute;top:0.4rem;right:0.5rem;border-radius: 0.2rem;
+				font-size:0.6rem;color:#fff;background-image: -webkit-gradient(linear,50% 0%,50% 100%,from(#f8618a),to(#c50f48));
+				line-height: 1.3rem;text-align: center;box-shadow: 0 -1px 2px 1px #ad2950,0 1px 2px 1px #f19bb6;
+				}
+			
+			footer{
+				width:100%;height:2.45rem;position: fixed;left:0;bottom:0;
+				color:#fff;text-align: center;background:#484850;display: -webkit-box;
+				border-top: 1px solid #636363;
+			}
+			footer a{display:block;color:#fff;-webkit-box-flex: 1;font-size:0.95rem;position: relative;}/*这里设置dt字体大小，直接设置不起作用。解决方案：dt设置字体大小继承父元素，在父元素中设置字体大小*/
+			footer a div:nth-of-type(2){font-size:inherit;padding-top:0.4rem;margin-bottom:0.275rem;}/*这里为什么用行高不能让字体居中？？？*/
+			footer a div:nth-of-type(3){font-size:0.6rem;line-height: 0.6rem;}
+			footer a:nth-of-type(1) div:nth-of-type(2){font-size:1.2rem;padding-top:0.15rem;}
+			footer a:nth-of-type(3){position: relative;}
+			footer .stripe{width:100%;height:5px;background:#e43669;position: absolute;left: 0;top: -2px;}
+			footer .flag{
+				width:0.8rem;height:0.8rem;border-radius: 100%;background:#e43669;position: absolute;top:0.25rem;right:0.6rem;
+				font-size: 0.1rem;line-height: 0.8rem;text-align: center;color:#fff;		
+			}
+			.hint{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;height:1rem;line-height:1rem;width:60%;text-align: center; background:#A5A5A5;padding:10px 0;}
+			
+			/*判断*/
+			/*ipone5*/
+			html{font-size: 20px!important;}
+			@media only screen and (min-width:320px ) and (max-width:1024px) and (orientation: portrait){
+					html{font-size: -webkit-calc(20*(100vw/320))!important;}
+				}
+			@media only screen and (orientation: landscape){
+				html{font-size: -webkit-calc(20*(100vh/320))}
+			}
+			
+
+			/*ipone5*/
+			/*@media only screen and (min-width:320px ) and (max-width:568px) {
+					html,body{font-size: 20px!important;}
+				}*/
+			/*iphone6*/
+			/*@media only screen and (min-width:375px ) and (max-width:667px) {
+				html,body{font-size: 23.4375px!important;}
+			}*/
+			/*ipd*/
+			/*@media only screen and (min-width:768px ) and (max-width:1024px) {
+				html,body{font-size:48px!important;}
+				.search input{background:white url(../img/search.gif) .8rem 0.3rem no-repeat;}
+			}*/

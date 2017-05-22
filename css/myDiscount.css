@@ -1,0 +1,17 @@
+.MyDiscount .main{width:100%;overflow: auto;height:75.88%;}
+.MyDiscount .msg{
+	width:13rem;height:1.55rem;border-width: 1px;border-color: #a8a8a8 #a8a8a8 #eaeaea;
+	border-style: solid;border-radius:0.125rem;margin:0.775rem auto 0.65rem;display: -webkit-box;
+	font-size: 0.75rem;color:#454545;
+	}
+.MyDiscount .msg div{
+	height:1.55rem;line-height:1.55rem;-webkit-box-flex: 1;text-align: center;border-right: 1px solid #a9a9a9;
+	background-image:-webkit-linear-gradient(top,#f4f4f4 0%,#c7c7c7 100%);
+	}
+.MyDiscount .msg div:nth-of-type(1){background-image:-webkit-linear-gradient(top,#f45985 0%,#d81250 100%);color:#fff;}
+.MyDiscount .msg div:nth-of-type(4){border:0;}
+.MyDiscount .main .con{
+	width:12.95rem;height:3.55rem;border:1px solid #a1a1a1;border-radius: 0.225rem;
+	font-size:0.6rem;color:#454545;margin:0.65rem auto 0;padding-left:0.35rem;box-sizing: border-box;
+}
+.MyDiscount .main .con p{margin-top:0.25rem;}

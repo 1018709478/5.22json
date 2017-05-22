@@ -1,0 +1,156 @@
+{
+	"html/login.html": {
+		"resources": [
+			"css/fonts/fontawesome-webfont.woff2",
+			"css/font-awesome.css",
+			"css/login.css",
+			"js/public.js",
+			"js/login.js",
+			"js/lib/zepto.min.js",
+			"css/public.css",
+			"html/index.html",
+			"html/myShow.html",
+			"html/more.html"
+		],
+		"refer": [
+			"html/index.html",
+			"html/myShow.html",
+			"html/more.html"
+		]
+	},
+	"html/index.html": {
+		"resources": [
+			"css/index.css",
+			"js/lib/iscroll-min.js",
+			"css/lib/swiper-3.3.1.min.css",
+			"js/index.js",
+			"js/lib/swiper-3.3.1.min.js",
+			"js/lib/jquery.min.js",
+			"img/search.jpg",
+			"html/classify.html",
+			"html/more.html",
+			"css/icons/iconfont.css",
+			"html/myShow.html",
+			"css/icons/iconfont.woff",
+			"html/shopCart.html",
+			"html/shopDetail.html",
+			"css/fonts/fontawesome-webfont.woff2",
+			"css/font-awesome.css",
+			"js/public.js",
+			"css/public.css",
+			"html/login.html",
+			"js/lib/mui.min.js",
+			"css/lib/mui.min.css"
+		],
+		"refer": [
+			"html/classify.html",
+			"html/more.html",
+			"html/myShow.html",
+			"html/shopCart.html",
+			"html/shopDetail.html",
+			"html/login.html"
+		]
+	},
+	"html/classify.html": {
+		"resources": [
+			"css/classify.css",
+			"js/classify.js",
+			"html/shopCart.html",
+			"html/index.html",
+			"html/myShow.html"
+		],
+		"refer": [
+			"html/shopCart.html",
+			"html/index.html",
+			"html/myShow.html"
+		]
+	},
+	"html/myShow.html": {
+		"resources": [
+			"img/user.jpg",
+			"html/index.html",
+			"css/myShow.css",
+			"html/more.html",
+			"js/myShow.js",
+			"html/shopCart.html",
+			"js/lib/jquery.min.js",
+			"html/login.html",
+			"html/classify.html"
+		],
+		"refer": [
+			"html/index.html",
+			"html/more.html",
+			"html/shopCart.html",
+			"html/login.html",
+			"html/classify.html"
+		]
+	},
+	"html/more.html": {
+		"resources": [
+			"js/more.js",
+			"html/myShow.html",
+			"css/more.css",
+			"html/index.html",
+			"js/lib/jquery.min.js"
+		],
+		"refer": [
+			"html/myShow.html",
+			"html/index.html"
+		]
+	},
+	"html/shopCart.html": {
+		"resources": [
+			"css/shopCart.css",
+			"html/myShow.html",
+			"js/shopCart.js",
+			"html/index.html",
+			"html/classify.html",
+			"html/more.html"
+		],
+		"refer": [
+			"html/myShow.html",
+			"html/index.html",
+			"html/classify.html",
+			"html/more.html"
+		]
+	},
+	"html/shopDetail.html": {
+		"resources": [
+			"js/shopDetail.js",
+			"css/shopDetail.css",
+			"css/public2.css",
+			"html/index.html",
+			"html/display.html",
+			"html/detail.html"
+		],
+		"refer": [
+			"html/index.html",
+			"html/display.html",
+			"html/detail.html"
+		]
+	},
+	"html/display.html": {
+		"resources": [
+			"css/display.css",
+			"html/shopDetail.html",
+			"js/display.js",
+			"html/detail.html"
+		],
+		"refer": [
+			"html/shopDetail.html",
+			"html/detail.html"
+		]
+	},
+	"html/detail.html": {
+		"resources": [
+			"html/display.html",
+			"css/detail.css",
+			"js/detail.js",
+			"html/shopDetail.html"
+		],
+		"refer": [
+			"html/display.html",
+			"html/shopDetail.html"
+		]
+	}
+}

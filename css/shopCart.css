@@ -1,0 +1,45 @@
+/*totallMsg*/
+.shopCart .totallMsg{
+	width:100%;height:2.15rem;background:#333;border-top:1px solid #636363;border-bottom: 1px solid #282828;
+	font-size:0.725rem;color:#fff;line-height: 2.15rem;
+	}
+.shopCart .totallMsg span:nth-of-type(1){margin:0 1.1rem 0 0.55rem;}
+.shopCart .totallMsg span:nth-of-type(3){color:#e7366c;margin-left:0.5rem;}
+
+/*main*/
+/*iscroll样式*/
+.shopCart .main{width:100%;overflow: hidden;position: absolute;top:4.6rem;bottom:2.5rem;}
+
+.shopCart .main .shopList{
+	width:100%;height:5.75rem;padding:0.7rem 0 0 0.825rem;box-sizing: border-box;border-top:1px solid #636363;
+	border-bottom: 1px solid #aaaaaa;
+	}
+.shopCart .main .shopList .left{float:left;margin-right: 0.65rem;}
+.shopCart .main .shopList .left img{height:4.3rem;width:4.3rem;border:1px solid #c9c7c8;}
+.shopCart .main .shopList .right{float:left;font-size:0.75rem;color:#000;position: relative;}
+.shopCart .main .shopList .right p:nth-of-type(1){
+	width:8rem;margin:0.225rem 0 0.35rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+	}
+.shopCart .main .shopList .right p:nth-of-type(1) span{position: absolute;display:block;top:0;right:0;}
+.shopCart .main .shopList .right p:nth-of-type(3){margin:0.35rem 0 0.15rem;}
+.shopCart .main .shopList .right p:nth-of-type(3) span:nth-of-type(1){color:#e43669;margin-right: 4.85rem;}
+.shopCart .main .shopList .right p:nth-of-type(4){line-height: 1.1rem;}
+.shopCart .main .shopList .right p:nth-of-type(4) button{
+	width:1.425rem;height:1.05rem;border:0;border-radius: 0.2rem;color:#fff;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#b0b0b0),to(#4d4d4d));	
+	}
+.shopCart .main .shopList .right p:nth-of-type(4) input{
+	width:1.8rem;height:1rem;border:1px solid #ababab;border-radius: 0.1rem;margin:0 0.375rem 0;text-align: center;
+	} 
+	
+/*购物车没有商品时的样式*/
+.main .None{width:100%;overflow: auto;height:75.88%;padding-top:1.55rem;text-align: center;}
+.main .None p{font-size: 0.875rem;color:#3f3f3f;line-height: 0.875rem;}
+.main .None .fa{
+	width:6.55rem;height:6.55rem;background:#d2d2d2;border-radius: 0.25rem;
+	margin:0.625rem 0 1.75rem;font-size:6.1rem;color:#fff;line-height: 7rem;
+	}
+.main .None .Btn{
+	width:10.55rem;height:2.3rem;font-size:1.2rem;line-height: 2.3rem;text-align: center;margin:0 auto;
+	color:#fff;background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#f7608b),to(#c50e47));
+	}

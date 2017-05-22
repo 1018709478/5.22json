@@ -1,0 +1,15 @@
+.More .main{width:100%;overflow: auto;height:75.88%;border-top:1px solid #636363;}
+.More .main .con{font-size:0.875rem;}
+.More .main .con ul:nth-of-type(1){width:13.875rem;border:2px solid #dedede;border-radius: 0.45rem;margin:1rem auto 0.6rem;}
+.More .main .con ul:nth-of-type(2){width:13.875rem;border:2px solid #dedede;border-radius: 0.45rem;margin:0 auto;}
+.More .main .con ul a{width:100%;display: block;position: relative;}
+.More .main .con ul a li{
+	width:100%;height:2.2rem;color:#000;line-height: 2.2rem;border-bottom: 2px solid #dedede;padding-left:0.7rem;
+	box-sizing: border-box;
+	}
+.More .main .con ul a i{font-size:0.75rem;color:#aaaaaa;position: absolute;right:0.625rem;top:0.75rem;}
+.More .main .con ul .li_last{border:0;}
+.More .main .inp{
+	width:13.875rem;height:2.2rem;text-align: center;line-height: 2.2rem;color:#fff;margin:0.5rem 1rem;border:0;
+	border-top:1px solid #dedede;border-radius:0.325rem;background-image:-webkit-linear-gradient(top,#f86089 0%,#d7114f 100%);
+	}

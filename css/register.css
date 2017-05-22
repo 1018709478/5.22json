@@ -1,0 +1,14 @@
+.Register .main{width:100%;overflow: auto;height:75.88%;border-top:1px solid #636363;}
+.Register .main .con{width: 14rem;margin:0 auto;font-size: 0.6rem;color:#6f6f6f;}
+.Register .con .inp{
+	width:14rem;height:1.9rem;border:0;padding-left: 0.625rem;font-size: 0.9rem;
+	line-height: 1.9rem;color:#a59b99;border-radius: 0.3rem 0.25rem;box-sizing: border-box;
+	box-shadow: -1px -1px 1px 0 #a5a5a5,5px 5px 5px 0 #f9f7e8;
+	}
+.Register .con input:nth-of-type(1){margin:1.525rem 0 1.125rem;}
+.Register .con input:nth-of-type(2){margin-bottom:1.2rem;}
+.Register .con input:nth-of-type(3){margin-bottom:1.9rem;}
+.Register .con input:nth-of-type(4){
+	background-image:-webkit-linear-gradient(top,#fa7d9f 0%,#f9628b 2%,#f35381 40%,#c40e47 100%);
+	font-size:0.875rem;color:#fff;margin-top: 1.2rem;box-shadow: 0 -1px 2px 0 #c6c4c5;padding:0;
+}

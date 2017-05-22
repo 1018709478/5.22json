@@ -1,0 +1,18 @@
+
+/*search*/
+.Classify .search{
+	height:2.15rem;width:100%;background:#52525a;border-width:1px 0 1px;border-style:solid;
+	border-color:#636363 none #282828;text-align: center;line-height: 2.15rem;
+	}
+.Classify .search input{
+	height:1.4rem;width:14.75rem;font-size:0.6rem;color:#949398;border:0;border-radius: 0.7rem;padding-left: 1.85rem;box-sizing: border-box;
+	background:#fff url(../img/search.jpg) no-repeat 0.375rem -1px;background-size: 1.45rem 1.4rem;
+}
+/*main*/
+.Classify .main .conList>li{font-size:1rem;color:#000;padding-left:0.55rem;position: relative;}
+.Classify .main .conList li .list{position: absolute;left:0;top:2.2rem;width:100%;display: none;}
+.Classify .main .conList li{
+		height:2.15rem;line-height: 2.15rem;padding-left:1rem;
+		border-top:1px solid #cbcbcb;border-bottom: 1px solid #aaaaaa;
+		}
+.Classify .main li i{float:right;margin:0 0.75rem 0 0;line-height: inherit;/*行高自适应父元素的高度*/}

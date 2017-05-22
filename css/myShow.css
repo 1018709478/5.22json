@@ -1,0 +1,20 @@
+.myShow .main{width:100%;border-top:1px solid #636363;}
+.myShow .user{margin-left:0.875rem;overflow: hidden;}
+.myShow .user dl {padding-top:1.55rem;}
+.myShow .user dl dt {float:left;margin-right: 0.825rem;}
+.myShow .user dl dt img{width:4.1rem;height:4.125rem;}
+.myShow .user dl dd{float;left;}
+.myShow .user dl dd p{font-size:0.9rem;color:#232524;margin:0.75rem 0 0.95rem;}
+.myShow .user dl dd div a{
+		float:left;width:2.7rem;height:1.325rem;font-size:0.6rem;text-align: center;
+		line-height:1.325rem;color:#fff;border-radius: 0.15rem;box-shadow: 0 -1px 1px 0 #bbbbbb;
+		background-image:-webkit-linear-gradient(top,#fa7d9f 0%,#d91253 90%,#a30b3c 100%)
+		}
+.myShow .user dl dd div a:nth-of-type(1){margin-right: 1.1rem;}
+.myShow .userMsg{width:13.875rem;border:2px solid #dedede;border-radius: 0.4rem;margin:2.075rem 0 0 0.8rem;}
+.myShow .userMsg li{height:2.25rem;font-size: 0.875rem;line-height: 2.25rem;position: relative;
+		padding-left: 0.7rem;border-bottom: 2px solid #dedede;
+		}
+.myShow .userMsg a{color:#000;}
+.myShow .userMsg li i{position:absolute;top:0.75rem;right:0.6rem;}
+.myShow .userMsg .li_last{border:0;}
